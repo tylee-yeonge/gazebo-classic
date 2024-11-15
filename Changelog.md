@@ -1,5 +1,55 @@
 ## Gazebo 11
 
+## Gazebo 11.15.0 (2024-11-15)
+
+1. Add Gazebo classic end-of-life notice
+    * [Pull request #3405](https://github.com/gazebosim/gazebo/pull/3405)
+
+1. Add EOL information to README
+    * [Pull request #3404](https://github.com/gazebosim/gazebo/pull/3404)
+
+1. Boost 1.86 compatibility
+    * [Pull request #3397](https://github.com/gazebosim/gazebo/pull/3397)
+
+1. Fix build with boost 1.85.0
+    * [Pull request #3386](https://github.com/gazebosim/gazebo/pull/3386)
+
+1. Change to windows-2022
+    * [Pull request #3383](https://github.com/gazebosim/gazebo/pull/3383)
+
+1. AudioDecoder: support ffmpeg 7.0
+    * [Pull request #3380](https://github.com/gazebosim/gazebo/pull/3380)
+
+1. gz world: use gz-transport to fix unclosed sockets
+    * [Pull request #3374](https://github.com/gazebosim/gazebo/pull/3374)
+
+1. Fix manpage installation when GZ_CLI_EXECUTABLE_NAME is used
+    * [Pull request #3370](https://github.com/gazebosim/gazebo/pull/3370)
+
+1. Fix build with graphviz 10.0
+    * [Pull request #3373](https://github.com/gazebosim/gazebo/pull/3373)
+
+1. Set gz tool name via GZ_CLI_EXECUTABLE_NAME
+    * [Pull request #3368](https://github.com/gazebosim/gazebo/pull/3368)
+
+1. vcpkg: update to the latest hash
+    * [Pull request #3367](https://github.com/gazebosim/gazebo/pull/3367)
+
+1. conda-forge CI: Pin libprotobuf to 4.24
+    * [Pull request #3365](https://github.com/gazebosim/gazebo/pull/3365)
+
+1. fix: Don't divide time by zero if single stepping.
+    * [Pull request #3352](https://github.com/gazebosim/gazebo/pull/3352)
+
+1. Port sensor update rate fix
+    * [Pull request #3353](https://github.com/gazebosim/gazebo/pull/3353)
+
+1. Add signal handlers for Windows
+    * [Pull request #3167](https://github.com/gazebosim/gazebo/pull/3167)
+
+1. Remove GZ_SINGLETON_DECLARE definition workaround (fix for armhf)
+    * [Pull request #3283](https://github.com/gazebosim/gazebo/pull/3283)
+
 ## Gazebo 11.14.0 (2023-10-06)
 
 1. Visual::SetPose performance improvement / minor fixes
