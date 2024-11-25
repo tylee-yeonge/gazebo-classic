@@ -14,6 +14,8 @@
  * limitations under the License.
  *
  */
+#include <cstdlib>
+
 #include <sdf/sdf.hh>
 
 #include "gazebo/transport/TransportIface.hh"
@@ -27,6 +29,12 @@
 void gazebo_shared::printVersion()
 {
   fprintf(stderr, "%s", GAZEBO_VERSION_HEADER);
+
+  const char *ignoreEol =
+    gazebo::common::getEnv("GAZEBO_SUPPRESS_EOL_WARNING");
+  if (ignoreEol != nullptr && strncmp(ignoreEol, "1", 1) == 0)
+    return;
+
   const char* msg = R"(
 #     # ####### ####### ###  #####  #######
 ##    # #     #    #     #  #     # #
